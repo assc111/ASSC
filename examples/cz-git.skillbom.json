@@ -1,0 +1,210 @@
+{
+  "type": "SkillBOM",
+  "bom_version": 1,
+  "doc_ID": "urn:uuid:bcc38a80-dc6a-426a-8cda-a605fdd23188",
+  "doc_name": "Skill SBOM for plugins/cz-git/skills/quickstart/SKILL.md",
+  "doc_namespace": "xxx",
+  "license_list_version": "3.23",
+  "timestamp": "xxx",
+  "licenses": [
+    {
+      "type": "declared",
+      "spdxID": "CC0-1.0"
+    }
+  ],
+  "creator": [
+    {
+      "type": "library",
+      "name": "SIT",
+      "version": "1.0",
+      "ID": "xxx",
+      "originator": [
+        {
+          "type": "person",
+          "name": "xxx"
+        }
+      ],
+      "purl": "xxx",
+      "licenses": [
+        {
+          "type": "declared",
+          "spdxID": "MulanPubL-2.0"
+        }
+      ],
+      "download_location": "xxx",
+      "source_repo": "xxx",
+      "homepage": "xxx"
+    }
+  ],
+  "components": [
+    {
+      "type": "application",
+      "name": "cz-git",
+      "version": "NOASSERTION",
+      "ID": "urn:skill:507dfa60-04e5-523f-a063-93b9321e4a8b",
+      "checksum": [
+        {
+          "alg": "SHA-256",
+          "value": "f8c791726cecb6adcdcd26b23e1579b2006aa6c843d003fdcb68a5a7c001914d"
+        }
+      ],
+      "external_references": [
+        {
+          "url": "https://github.com/javimosch/supercli",
+          "comment": "source repository",
+          "type": "vcs"
+        }
+      ],
+      "source_repo": "https://github.com/javimosch/supercli",
+      "description": "Use this skill when the user wants to use the cz-git command-line tool.",
+      "properties": [
+        {
+          "key": "skill:path",
+          "value": "plugins/cz-git/skills/quickstart/SKILL.md"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "czg",
+      "ID": "pkg:npm/czg",
+      "purl": "pkg:npm/czg",
+      "external_references": [
+        {
+          "url": "https://www.npmjs.com/package/czg",
+          "comment": "package registry",
+          "type": "distribution"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "@types/minimist",
+      "ID": "pkg:npm/types/minimist",
+      "purl": "pkg:npm/types/minimist"
+    },
+    {
+      "type": "library",
+      "name": "cachedir",
+      "ID": "pkg:npm/cachedir",
+      "purl": "pkg:npm/cachedir"
+    },
+    {
+      "type": "library",
+      "name": "dedent",
+      "ID": "pkg:npm/dedent",
+      "purl": "pkg:npm/dedent"
+    },
+    {
+      "type": "library",
+      "name": "inquirer",
+      "version": "8.2.5",
+      "ID": "pkg:npm/inquirer@8.2.5",
+      "purl": "pkg:npm/inquirer@8.2.5"
+    },
+    {
+      "type": "library",
+      "name": "minimist",
+      "ID": "pkg:npm/minimist",
+      "purl": "pkg:npm/minimist"
+    },
+    {
+      "type": "library",
+      "name": "mkdirp",
+      "ID": "pkg:npm/mkdirp",
+      "purl": "pkg:npm/mkdirp"
+    },
+    {
+      "type": "library",
+      "name": "cz-git",
+      "version": "1.13.1",
+      "ID": "pkg:npm/cz-git@1.13.1",
+      "purl": "pkg:npm/cz-git@1.13.1"
+    }
+  ],
+  "relationship": [
+    {
+      "type": "DEPENDS_ON",
+      "sourceID": "urn:skill:507dfa60-04e5-523f-a063-93b9321e4a8b",
+      "targetID": "pkg:npm/czg",
+      "comment": "source=000603_javimosch_supercli_SKILL.md:16; risks=version-not-clearly-pinned; evidence=npm install -g czg"
+    },
+    {
+      "type": "DEPENDS_ON",
+      "sourceID": "pkg:npm/czg",
+      "targetID": "pkg:npm/types/minimist",
+      "comment": "dependency_type=devDependencies"
+    },
+    {
+      "type": "DEPENDS_ON",
+      "sourceID": "pkg:npm/czg",
+      "targetID": "pkg:npm/cachedir",
+      "comment": "dependency_type=devDependencies"
+    },
+    {
+      "type": "DEPENDS_ON",
+      "sourceID": "pkg:npm/czg",
+      "targetID": "pkg:npm/dedent",
+      "comment": "dependency_type=devDependencies"
+    },
+    {
+      "type": "DEPENDS_ON",
+      "sourceID": "pkg:npm/czg",
+      "targetID": "pkg:npm/inquirer@8.2.5",
+      "comment": "dependency_type=devDependencies"
+    },
+    {
+      "type": "DEPENDS_ON",
+      "sourceID": "pkg:npm/czg",
+      "targetID": "pkg:npm/minimist",
+      "comment": "dependency_type=devDependencies"
+    },
+    {
+      "type": "DEPENDS_ON",
+      "sourceID": "pkg:npm/czg",
+      "targetID": "pkg:npm/mkdirp",
+      "comment": "dependency_type=devDependencies"
+    },
+    {
+      "type": "DEPENDS_ON",
+      "sourceID": "pkg:npm/czg",
+      "targetID": "pkg:npm/cz-git@1.13.1",
+      "comment": "dependency_type=devDependencies"
+    }
+  ],
+  "annotations": [
+    {
+      "type": "dependency-risk",
+      "ID": "urn:skillbom:annotation:c18e52e0ce86cfa5613b6c15bc233ff4",
+      "subjects": [
+        "urn:skill:507dfa60-04e5-523f-a063-93b9321e4a8b"
+      ],
+      "timestamp": "2026-06-09T12:16:38Z",
+      "annotator": [
+        {
+          "type": "library",
+          "name": "SIT",
+          "version": "1.0",
+          "ID": "xxx",
+          "originator": [
+            {
+              "type": "person",
+              "name": "xxx"
+            }
+          ],
+          "purl": "xxx",
+          "licenses": [
+            {
+              "type": "declared",
+              "spdxID": "MulanPubL-2.0"
+            }
+          ],
+          "download_location": "xxx",
+          "source_repo": "xxx",
+          "homepage": "xxx"
+        }
+      ],
+      "text": "source=000603_javimosch_supercli_SKILL.md:16; risks=version-not-clearly-pinned; evidence=npm install -g czg"
+    }
+  ]
+}

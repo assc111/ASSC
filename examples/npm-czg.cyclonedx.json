@@ -1,0 +1,134 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "xxx",
+  "version": 1,
+  "metadata": {
+    "timestamp": "xxx",
+    "tools": {
+      "components": [
+        {
+          "type": "library",
+          "bom-ref": "xxx",
+          "authors": [
+            {
+              "name": "xxx"
+            }
+          ],
+          "name": "SIT",
+          "version": "1.0",
+          "licenses": [
+            {
+              "license": {
+                "name": "MulanPubL-2.0",
+                "acknowledgement": "declared"
+              }
+            }
+          ],
+          "purl": "xxx",
+          "properties": [
+            {
+              "name": "download_location",
+              "value": "xxx"
+            },
+            {
+              "name": "source_repo",
+              "value": "xxx"
+            },
+            {
+              "name": "homepage",
+              "value": "xxx"
+            }
+          ]
+        }
+      ]
+    },
+    "component": {
+      "type": "library",
+      "bom-ref": "pkg:npm/czg",
+      "name": "czg",
+      "purl": "pkg:npm/czg",
+      "externalReferences": [
+        {
+          "url": "https://www.npmjs.com/package/czg",
+          "comment": "package registry",
+          "type": "distribution"
+        }
+      ]
+    },
+    "licenses": [
+      {
+        "license": {
+          "id": "CC0-1.0",
+          "acknowledgement": "declared"
+        }
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/types/minimist",
+      "name": "@types/minimist",
+      "purl": "pkg:npm/types/minimist"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/cachedir",
+      "name": "cachedir",
+      "purl": "pkg:npm/cachedir"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/dedent",
+      "name": "dedent",
+      "purl": "pkg:npm/dedent"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/inquirer@8.2.5",
+      "name": "inquirer",
+      "version": "8.2.5",
+      "purl": "pkg:npm/inquirer@8.2.5"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/minimist",
+      "name": "minimist",
+      "purl": "pkg:npm/minimist"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/mkdirp",
+      "name": "mkdirp",
+      "purl": "pkg:npm/mkdirp"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:npm/cz-git@1.13.1",
+      "name": "cz-git",
+      "version": "1.13.1",
+      "purl": "pkg:npm/cz-git@1.13.1"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:npm/czg",
+      "dependsOn": [
+        "pkg:npm/types/minimist",
+        "pkg:npm/cachedir",
+        "pkg:npm/dedent",
+        "pkg:npm/inquirer@8.2.5",
+        "pkg:npm/minimist",
+        "pkg:npm/mkdirp",
+        "pkg:npm/cz-git@1.13.1"
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "name": "licenseListVersion",
+      "value": "3.23"
+    }
+  ]
+}

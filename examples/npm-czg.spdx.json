@@ -1,0 +1,308 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "creationInfo": {
+    "created": "xxx",
+    "creators": [
+      "Tool: SIT - 1.0"
+    ],
+    "licenseListVersion": "3.23"
+  },
+  "dataLicense": "CC0-1.0",
+  "name": "Skill SBOM for plugins/cz-git/skills/quickstart/SKILL.md",
+  "spdxVersion": "SPDX-2.3",
+  "documentNamespace": "xxx",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-1",
+      "annotations": [
+        {
+          "annotationDate": "xxx",
+          "annotationType": "OTHER",
+          "annotator": "Tool: SIT - 1.0",
+          "comment": "type: library"
+        },
+        {
+          "annotationDate": "xxx",
+          "annotationType": "OTHER",
+          "annotator": "Tool: SIT - 1.0",
+          "comment": "purl: pkg:npm/czg"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [
+        {
+          "comment": "package registry",
+          "referenceCategory": "OTHER",
+          "referenceLocator": "https://www.npmjs.com/package/czg",
+          "referenceType": "OTHER"
+        },
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/czg"
+        }
+      ],
+      "name": "czg",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION"
+    },
+    {
+      "SPDXID": "SPDXRef-Package-2",
+      "annotations": [
+        {
+          "annotationDate": "xxx",
+          "annotationType": "OTHER",
+          "annotator": "Tool: SIT - 1.0",
+          "comment": "type: library"
+        },
+        {
+          "annotationDate": "xxx",
+          "annotationType": "OTHER",
+          "annotator": "Tool: SIT - 1.0",
+          "comment": "purl: pkg:npm/types/minimist"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "name": "@types/minimist",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/types/minimist"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-3",
+      "annotations": [
+        {
+          "annotationDate": "xxx",
+          "annotationType": "OTHER",
+          "annotator": "Tool: SIT - 1.0",
+          "comment": "type: library"
+        },
+        {
+          "annotationDate": "xxx",
+          "annotationType": "OTHER",
+          "annotator": "Tool: SIT - 1.0",
+          "comment": "purl: pkg:npm/cachedir"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "name": "cachedir",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/cachedir"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-4",
+      "annotations": [
+        {
+          "annotationDate": "xxx",
+          "annotationType": "OTHER",
+          "annotator": "Tool: SIT - 1.0",
+          "comment": "type: library"
+        },
+        {
+          "annotationDate": "xxx",
+          "annotationType": "OTHER",
+          "annotator": "Tool: SIT - 1.0",
+          "comment": "purl: pkg:npm/dedent"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "name": "dedent",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/dedent"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-5",
+      "annotations": [
+        {
+          "annotationDate": "xxx",
+          "annotationType": "OTHER",
+          "annotator": "Tool: SIT - 1.0",
+          "comment": "type: library"
+        },
+        {
+          "annotationDate": "xxx",
+          "annotationType": "OTHER",
+          "annotator": "Tool: SIT - 1.0",
+          "comment": "purl: pkg:npm/inquirer@8.2.5"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "name": "inquirer",
+      "versionInfo": "8.2.5",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/inquirer@8.2.5"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-6",
+      "annotations": [
+        {
+          "annotationDate": "xxx",
+          "annotationType": "OTHER",
+          "annotator": "Tool: SIT - 1.0",
+          "comment": "type: library"
+        },
+        {
+          "annotationDate": "xxx",
+          "annotationType": "OTHER",
+          "annotator": "Tool: SIT - 1.0",
+          "comment": "purl: pkg:npm/minimist"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "name": "minimist",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/minimist"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-7",
+      "annotations": [
+        {
+          "annotationDate": "xxx",
+          "annotationType": "OTHER",
+          "annotator": "Tool: SIT - 1.0",
+          "comment": "type: library"
+        },
+        {
+          "annotationDate": "xxx",
+          "annotationType": "OTHER",
+          "annotator": "Tool: SIT - 1.0",
+          "comment": "purl: pkg:npm/mkdirp"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "name": "mkdirp",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/mkdirp"
+        }
+      ]
+    },
+    {
+      "SPDXID": "SPDXRef-Package-8",
+      "annotations": [
+        {
+          "annotationDate": "xxx",
+          "annotationType": "OTHER",
+          "annotator": "Tool: SIT - 1.0",
+          "comment": "type: library"
+        },
+        {
+          "annotationDate": "xxx",
+          "annotationType": "OTHER",
+          "annotator": "Tool: SIT - 1.0",
+          "comment": "purl: pkg:npm/cz-git@1.13.1"
+        }
+      ],
+      "downloadLocation": "NOASSERTION",
+      "name": "cz-git",
+      "versionInfo": "1.13.1",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:npm/cz-git@1.13.1"
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-Package-1",
+      "comment": "dependency_type=devDependencies",
+      "relatedSpdxElement": "SPDXRef-Package-2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1",
+      "comment": "dependency_type=devDependencies",
+      "relatedSpdxElement": "SPDXRef-Package-3",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1",
+      "comment": "dependency_type=devDependencies",
+      "relatedSpdxElement": "SPDXRef-Package-4",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1",
+      "comment": "dependency_type=devDependencies",
+      "relatedSpdxElement": "SPDXRef-Package-5",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1",
+      "comment": "dependency_type=devDependencies",
+      "relatedSpdxElement": "SPDXRef-Package-6",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1",
+      "comment": "dependency_type=devDependencies",
+      "relatedSpdxElement": "SPDXRef-Package-7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-Package-1",
+      "comment": "dependency_type=devDependencies",
+      "relatedSpdxElement": "SPDXRef-Package-8",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}
